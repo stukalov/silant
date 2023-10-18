@@ -1,0 +1,1548 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1000,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$BSB4AABM0DyQfB9WEGZFRH$mG2HuYjA6UjgJtKpj6Hn+xilWPHFVGdyWRInWLLGyJ4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "manager",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:08:44.467Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1001,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$SwlaLHVezU7vJm16OKNvNB$9O/yIjMRrk1xIsGXp6ST2hkyLuCauZJYCiXaVUg7B6o=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_fpk21",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:11:06.015Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1002,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$rj5VXg7RWOiQK989ubkwsE$rEXVcqvOct+qah0ghYF9EBmdXgR0Qvl02An+HyZd8sg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_rmk",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:12:15.749Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1003,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$bT7f6Ksxy8T0cMYtBqaMKo$jWYQiJeTb+oWqExY6aOi5zrprGjdB9yd+4+YUxfcsXo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_ranski_lph",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:12:50.411Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1004,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$vVDfOIGLHLlOGjDOq6nTVS$SYfHABw2K4HMWxKqZWujTNqcwUAjDOZEemaXLy6j/Do=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_mns77",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:13:21.223Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1005,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$YLx0kyaGuREd21XOhdXhsJ$h3CUJ8hKqT9c3KHPdndK25ko0R/tpYiNAJR9CxwvjGQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_komplekt_postavka",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:13:49.339Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1006,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jHckLEqXDlJV30pCbBWtJT$J2/+dUKbPS+4gLT7NV/Q2Uo9BTsbdmEN46nV28p5U8o=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_trudnikov",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:14:24.566Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1007,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$LkVFtykO5ENjiXYqqhXcYS$9OU5d7XLoQafPdB5l5QyEqcLBrXBHHLsybLE+6Y76Is=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "client_zander",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:14:48.446Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1008,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$Zuh0l8rYiKVbHjSUKPMfmP$VKwvGg02I2a1Gyte235XA6NnUppy2HnFioxgR3uAXhc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "service_fns",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:15:42.934Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1009,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$bwWNtPkcacw2AzR31Ia7ea$MLeI/grwy9YDD0nquyJdaX6CHVGFKZFulKAveMNmnYs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "service_silant",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:15:55.530Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1010,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$xZbCb9VJl00OTi2pgtCqw2$7PfMpFPHTZ+HKxoSm5+bs4SCPG9PIPoinAVEyINEYuQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "service_prom_tech",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-07T06:16:14.763Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 1,
+    "fields": {
+      "name": "АО \"Зандер\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 2,
+    "fields": {
+      "name": "ИП Трудников С.В.",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 3,
+    "fields": {
+      "name": "ООО \"Комплект-Поставка\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 4,
+    "fields": {
+      "name": "ООО \"МНС77\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 5,
+    "fields": {
+      "name": "ООО \"Ранский ЛПХ\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 6,
+    "fields": {
+      "name": "ООО \"РМК\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.client",
+    "pk": 7,
+    "fields": {
+      "name": "ООО \"ФПК21\"",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 1,
+    "fields": {
+      "name": "ПГ1,5",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 2,
+    "fields": {
+      "name": "ПД1,5",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 3,
+    "fields": {
+      "name": "ПД2,0",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 4,
+    "fields": {
+      "name": "ПД2,5",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 5,
+    "fields": {
+      "name": "ПД3,0",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.techtype",
+    "pk": 6,
+    "fields": {
+      "name": "ПД5,0",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.enginetype",
+    "pk": 1,
+    "fields": {
+      "name": "ММЗ Д-243",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.enginetype",
+    "pk": 2,
+    "fields": {
+      "name": "Kubota D1803",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.enginetype",
+    "pk": 3,
+    "fields": {
+      "name": "Kubota V3300",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.enginetype",
+    "pk": 4,
+    "fields": {
+      "name": "MMZ-4D",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.enginetype",
+    "pk": 5,
+    "fields": {
+      "name": "Nissan K21",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.geartype",
+    "pk": 1,
+    "fields": {
+      "name": "10VA-00105",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.geartype",
+    "pk": 2,
+    "fields": {
+      "name": "10VB-00106",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.geartype",
+    "pk": 3,
+    "fields": {
+      "name": "HF30-VP010",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.geartype",
+    "pk": 4,
+    "fields": {
+      "name": "HF50-VP020",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.driveaxeltype",
+    "pk": 1,
+    "fields": {
+      "name": "20VA-00101",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.driveaxeltype",
+    "pk": 2,
+    "fields": {
+      "name": "20VB-00102",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.driveaxeltype",
+    "pk": 3,
+    "fields": {
+      "name": "HA30-02020",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.driveaxeltype",
+    "pk": 4,
+    "fields": {
+      "name": "HA50-VP010",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.steeraxeltype",
+    "pk": 1,
+    "fields": {
+      "name": "B350655A",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.steeraxeltype",
+    "pk": 2,
+    "fields": {
+      "name": "VS20-00001",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.steeraxeltype",
+    "pk": 3,
+    "fields": {
+      "name": "VS30-00001",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicefirm",
+    "pk": 1,
+    "fields": {
+      "name": "ООО Промышленная техника",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicefirm",
+    "pk": 2,
+    "fields": {
+      "name": "ООО Силант",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicefirm",
+    "pk": 3,
+    "fields": {
+      "name": "ООО ФНС",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicetype",
+    "pk": 1,
+    "fields": {
+      "name": "ТО-0 (50 м/час)",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicetype",
+    "pk": 2,
+    "fields": {
+      "name": "ТО-1 (200 м/час)",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicetype",
+    "pk": 3,
+    "fields": {
+      "name": "ТО-2 (400 м/час)",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicetype",
+    "pk": 4,
+    "fields": {
+      "name": "ТО-4 (1000м/час)",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.servicetype",
+    "pk": 5,
+    "fields": {
+      "name": "ТО-5 (2000м/час)",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.repairmethod",
+    "pk": 1,
+    "fields": {
+      "name": "Ремонт узла",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.repairmethod",
+    "pk": 2,
+    "fields": {
+      "name": "Замена узла",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 1,
+    "fields": {
+      "name": "Ведущий мост",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 2,
+    "fields": {
+      "name": "Гидросистема",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 3,
+    "fields": {
+      "name": "Двигатель",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 4,
+    "fields": {
+      "name": "Подъёмное устройство",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 5,
+    "fields": {
+      "name": "Трансмиссия",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.failurepart",
+    "pk": 6,
+    "fields": {
+      "name": "Управляемый мост",
+      "descr": ""
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 1,
+    "fields": {
+      "tech_type": 2,
+      "vehicle_number": "0017",
+      "engine_type": 2,
+      "engine_number": "7ML1035",
+      "gear_type": 1,
+      "gear_number": "21D0108251",
+      "drive_axel_type": 1,
+      "drive_axel_number": "21D0107997",
+      "steer_axel_type": 2,
+      "steer_axel_number": "21D0093265",
+      "contract": null,
+      "shipping_date": "2022-03-09",
+      "consumer": "ИП Трудников С.В.",
+      "address": "п. Знаменский,  Респ. Марий Эл",
+      "equipment": "1. Гидролинии с БРС;\r\n2. Дополнительеная установка кабины",
+      "client": 2,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 2,
+    "fields": {
+      "tech_type": 6,
+      "vehicle_number": "0021",
+      "engine_type": 1,
+      "engine_number": "112890",
+      "gear_type": 4,
+      "gear_number": "20H0066",
+      "drive_axel_type": 4,
+      "drive_axel_number": "20H0039",
+      "steer_axel_type": 1,
+      "steer_axel_number": "KDBAC9685",
+      "contract": null,
+      "shipping_date": "2022-01-14",
+      "consumer": "ООО \"ДЭТ №13\"",
+      "address": "с. Акуловка, Московская обл.",
+      "equipment": "Стандарт",
+      "client": 7,
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 3,
+    "fields": {
+      "tech_type": 6,
+      "vehicle_number": "0027",
+      "engine_type": 1,
+      "engine_number": "167733",
+      "gear_type": 4,
+      "gear_number": "20H0070",
+      "drive_axel_type": 4,
+      "drive_axel_number": "20H0049",
+      "steer_axel_type": 1,
+      "steer_axel_number": "KDBAH6583",
+      "contract": null,
+      "shipping_date": "2022-04-28",
+      "consumer": "ООО \"Мосгоррест\"",
+      "address": "г. Санкт-Петербург",
+      "equipment": "1. Кабина с отопителем",
+      "client": 4,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 4,
+    "fields": {
+      "tech_type": 5,
+      "vehicle_number": "0032",
+      "engine_type": 3,
+      "engine_number": "2MU2983",
+      "gear_type": 2,
+      "gear_number": "21K0116785",
+      "drive_axel_type": 2,
+      "drive_axel_number": "21K0115910",
+      "steer_axel_type": 3,
+      "steer_axel_number": "00070422",
+      "contract": null,
+      "shipping_date": "2022-05-27",
+      "consumer": "ФРП России",
+      "address": "г. Челябинск, в/ч",
+      "equipment": "1. Кабина с отопителем;\r\n2. Медицинская аптечка;\r\n3. Проблесковый маячок;\r\n4. Знак аварийной остановки;\r\n5. Огнетушитель порошковый 5п;",
+      "client": 7,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 5,
+    "fields": {
+      "tech_type": 5,
+      "vehicle_number": "0003",
+      "engine_type": 3,
+      "engine_number": "2ME0639",
+      "gear_type": 2,
+      "gear_number": "21D0108264",
+      "drive_axel_type": 2,
+      "drive_axel_number": "21D0107988",
+      "steer_axel_type": 3,
+      "steer_axel_number": "0821004",
+      "contract": null,
+      "shipping_date": "2021-09-30",
+      "consumer": "ООО \"Ранский ЛПХ\"",
+      "address": "п. Опарино, Кировская обл.",
+      "equipment": "Стандарт",
+      "client": 5,
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 6,
+    "fields": {
+      "tech_type": 1,
+      "vehicle_number": "0016",
+      "engine_type": 5,
+      "engine_number": "049827",
+      "gear_type": 1,
+      "gear_number": "21D0108256",
+      "drive_axel_type": 1,
+      "drive_axel_number": "21D0108000",
+      "steer_axel_type": 2,
+      "steer_axel_number": "21D0093244",
+      "contract": null,
+      "shipping_date": "2021-12-20",
+      "consumer": "ООО \"ГП СПБ\"",
+      "address": "г. Санкт-Петербург",
+      "equipment": "1. Кабина с отопителем;\r\n2. Каретка смещения + гидролинии;",
+      "client": 3,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 7,
+    "fields": {
+      "tech_type": 3,
+      "vehicle_number": "0039",
+      "engine_type": 4,
+      "engine_number": "000015",
+      "gear_type": 3,
+      "gear_number": "22B0001",
+      "drive_axel_type": 3,
+      "drive_axel_number": "22B3364",
+      "steer_axel_type": 2,
+      "steer_axel_number": "00010622",
+      "contract": null,
+      "shipping_date": "2022-07-18",
+      "consumer": "ФСН России",
+      "address": "г. Москва",
+      "equipment": "1. Высота подъёма вил - 4 500мм;\r\n2. Кабина с отопителем;\r\n3. Шины суперэластик;\r\n4. Прибор комбинированный КД8235;",
+      "client": 6,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 8,
+    "fields": {
+      "tech_type": 4,
+      "vehicle_number": "0045",
+      "engine_type": 4,
+      "engine_number": "000003",
+      "gear_type": 3,
+      "gear_number": "22B0008",
+      "drive_axel_type": 3,
+      "drive_axel_number": "22B3370",
+      "steer_axel_type": 2,
+      "steer_axel_number": "00200622",
+      "contract": null,
+      "shipping_date": "2022-08-30",
+      "consumer": "АО Зандер",
+      "address": "г. Краснодар",
+      "equipment": "1. Кабина с отопителем;\r\n2. Каретка бокового смещения 1050мм;\r\n3. Блокировка реверса хода;\r\n4. Высота подъёма вил - 4800мм;\r\n5. Прибор комбинированный КД8235;",
+      "client": 1,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 9,
+    "fields": {
+      "tech_type": 6,
+      "vehicle_number": "0019",
+      "engine_type": 1,
+      "engine_number": "112893",
+      "gear_type": 4,
+      "gear_number": "20H0069",
+      "drive_axel_type": 4,
+      "drive_axel_number": "20H0041",
+      "steer_axel_type": 1,
+      "steer_axel_number": "KDBAC9687",
+      "contract": null,
+      "shipping_date": "2022-01-28",
+      "consumer": "АО \"Т-Минус\"",
+      "address": "г. Первоуральск,  Свердловской обл.",
+      "equipment": "1. Высота подъёма вил - 4 500мм;\r\n2. Центральный цилиндр подъёма ;\r\n3. Кабина с отопителем;\r\n4. Стрела безблочная Г-образная;",
+      "client": 7,
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.vehicle",
+    "pk": 10,
+    "fields": {
+      "tech_type": 5,
+      "vehicle_number": "0008",
+      "engine_type": 3,
+      "engine_number": "2ME0753",
+      "gear_type": 2,
+      "gear_number": "21D0108269",
+      "drive_axel_type": 2,
+      "drive_axel_number": "21D0108011",
+      "steer_axel_type": 3,
+      "steer_axel_number": "0821005",
+      "contract": null,
+      "shipping_date": "2021-09-30",
+      "consumer": "ООО \"ГП Краснодар\"",
+      "address": "г. Краснодар",
+      "equipment": "1. Кабина с отопителем;",
+      "client": 3,
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 1,
+    "fields": {
+      "vehicle": 5,
+      "service_type": 1,
+      "date": "2021-10-05",
+      "hours": 55,
+      "order_number": "#2022-32КЕ5СИЛ",
+      "order_date": "2021-10-03",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 2,
+    "fields": {
+      "vehicle": 10,
+      "service_type": 1,
+      "date": "2021-10-05",
+      "hours": 54,
+      "order_number": "#2022-97КЕ18СИЛ",
+      "order_date": "2021-10-03",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 3,
+    "fields": {
+      "vehicle": 5,
+      "service_type": 2,
+      "date": "2021-11-02",
+      "hours": 220,
+      "order_number": "#2022-81КЕ66СИЛ",
+      "order_date": "2021-10-31",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 4,
+    "fields": {
+      "vehicle": 10,
+      "service_type": 2,
+      "date": "2021-11-02",
+      "hours": 225,
+      "order_number": "#2022-54КЕ17СИЛ",
+      "order_date": "2021-10-31",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 5,
+    "fields": {
+      "vehicle": 5,
+      "service_type": 3,
+      "date": "2021-12-10",
+      "hours": 450,
+      "order_number": "#2022-72КЕ68СИЛ",
+      "order_date": "2021-12-08",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 6,
+    "fields": {
+      "vehicle": 10,
+      "service_type": 3,
+      "date": "2021-12-10",
+      "hours": 422,
+      "order_number": "#2022-97КЕ11СИЛ",
+      "order_date": "2021-12-08",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 7,
+    "fields": {
+      "vehicle": 6,
+      "service_type": 1,
+      "date": "2021-12-25",
+      "hours": 53,
+      "order_number": "#2022-77КЕ66СИЛ",
+      "order_date": "2021-12-23",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 8,
+    "fields": {
+      "vehicle": 2,
+      "service_type": 1,
+      "date": "2022-01-19",
+      "hours": 52,
+      "order_number": "#2022-27КЕ67СИЛ",
+      "order_date": "2022-01-17",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 9,
+    "fields": {
+      "vehicle": 6,
+      "service_type": 2,
+      "date": "2022-01-22",
+      "hours": 221,
+      "order_number": "#2022-96КЕ82СИЛ",
+      "order_date": "2022-01-20",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 10,
+    "fields": {
+      "vehicle": 9,
+      "service_type": 1,
+      "date": "2022-02-02",
+      "hours": 55,
+      "order_number": "#2022-6КЕ38СИЛ",
+      "order_date": "2022-01-31",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 11,
+    "fields": {
+      "vehicle": 5,
+      "service_type": 4,
+      "date": "2022-02-13",
+      "hours": 1054,
+      "order_number": "#2022-56КЕ54СИЛ",
+      "order_date": "2022-02-11",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 12,
+    "fields": {
+      "vehicle": 10,
+      "service_type": 4,
+      "date": "2022-02-13",
+      "hours": 1026,
+      "order_number": "#2022-88КЕ66СИЛ",
+      "order_date": "2022-02-11",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 13,
+    "fields": {
+      "vehicle": 2,
+      "service_type": 2,
+      "date": "2022-02-16",
+      "hours": 221,
+      "order_number": "#2022-5КЕ78СИЛ",
+      "order_date": "2022-02-14",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 14,
+    "fields": {
+      "vehicle": 6,
+      "service_type": 3,
+      "date": "2022-03-01",
+      "hours": 407,
+      "order_number": "#2022-16КЕ6СИЛ",
+      "order_date": "2022-02-27",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 15,
+    "fields": {
+      "vehicle": 9,
+      "service_type": 2,
+      "date": "2022-03-02",
+      "hours": 219,
+      "order_number": "#2022-38КЕ68СИЛ",
+      "order_date": "2022-02-28",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 16,
+    "fields": {
+      "vehicle": 1,
+      "service_type": 1,
+      "date": "2022-03-14",
+      "hours": 53,
+      "order_number": "#2022-70КЕ87СИЛ",
+      "order_date": "2022-03-12",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 17,
+    "fields": {
+      "vehicle": 2,
+      "service_type": 3,
+      "date": "2022-03-26",
+      "hours": 403,
+      "order_number": "#2022-42КЕ6СИЛ",
+      "order_date": "2022-03-24",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 18,
+    "fields": {
+      "vehicle": 9,
+      "service_type": 3,
+      "date": "2022-04-09",
+      "hours": 405,
+      "order_number": "#2022-34КЕ62СИЛ",
+      "order_date": "2022-04-07",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 19,
+    "fields": {
+      "vehicle": 1,
+      "service_type": 2,
+      "date": "2022-04-11",
+      "hours": 210,
+      "order_number": "#2022-16КЕ87СИЛ",
+      "order_date": "2022-04-09",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 20,
+    "fields": {
+      "vehicle": 3,
+      "service_type": 1,
+      "date": "2022-05-03",
+      "hours": 52,
+      "order_number": "#2022-21КЕ82СИЛ",
+      "order_date": "2022-05-01",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 21,
+    "fields": {
+      "vehicle": 6,
+      "service_type": 4,
+      "date": "2022-05-05",
+      "hours": 1011,
+      "order_number": "#2022-22КЕ87СИЛ",
+      "order_date": "2022-05-03",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 22,
+    "fields": {
+      "vehicle": 1,
+      "service_type": 3,
+      "date": "2022-05-19",
+      "hours": 405,
+      "order_number": "#2022-77КЕ23СИЛ",
+      "order_date": "2022-05-17",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 23,
+    "fields": {
+      "vehicle": 3,
+      "service_type": 2,
+      "date": "2022-05-31",
+      "hours": 214,
+      "order_number": "#2022-31КЕ19СИЛ",
+      "order_date": "2022-05-29",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 24,
+    "fields": {
+      "vehicle": 4,
+      "service_type": 1,
+      "date": "2022-06-01",
+      "hours": 55,
+      "order_number": "#2022-10КЕ19СИЛ",
+      "order_date": "2022-05-30",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 25,
+    "fields": {
+      "vehicle": 4,
+      "service_type": 2,
+      "date": "2022-06-29",
+      "hours": 216,
+      "order_number": "#2022-92КЕ16СИЛ",
+      "order_date": "2022-06-27",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 26,
+    "fields": {
+      "vehicle": 3,
+      "service_type": 3,
+      "date": "2022-07-08",
+      "hours": 441,
+      "order_number": "#2022-84КЕ73СИЛ",
+      "order_date": "2022-07-06",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 27,
+    "fields": {
+      "vehicle": 7,
+      "service_type": 1,
+      "date": "2022-07-23",
+      "hours": 54,
+      "order_number": "#2022-72КЕ89СИЛ",
+      "order_date": "2022-07-21",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 28,
+    "fields": {
+      "vehicle": 4,
+      "service_type": 3,
+      "date": "2022-08-06",
+      "hours": 434,
+      "order_number": "#2022-55КЕ37СИЛ",
+      "order_date": "2022-08-04",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 29,
+    "fields": {
+      "vehicle": 7,
+      "service_type": 2,
+      "date": "2022-08-20",
+      "hours": 206,
+      "order_number": "#2022-26КЕ57СИЛ",
+      "order_date": "2022-08-18",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 30,
+    "fields": {
+      "vehicle": 5,
+      "service_type": 5,
+      "date": "2022-09-01",
+      "hours": 2053,
+      "order_number": "#2022-99КЕ12СИЛ",
+      "order_date": "2022-08-30",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 31,
+    "fields": {
+      "vehicle": 10,
+      "service_type": 5,
+      "date": "2022-09-01",
+      "hours": 2025,
+      "order_number": "#2022-50КЕ10СИЛ",
+      "order_date": "2022-08-30",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 32,
+    "fields": {
+      "vehicle": 8,
+      "service_type": 1,
+      "date": "2022-09-04",
+      "hours": 53,
+      "order_number": "#2022-58КЕ94СИЛ",
+      "order_date": "2022-09-02",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 33,
+    "fields": {
+      "vehicle": 7,
+      "service_type": 3,
+      "date": "2022-09-27",
+      "hours": 407,
+      "order_number": "#2022-54КЕ66СИЛ",
+      "order_date": "2022-09-25",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 34,
+    "fields": {
+      "vehicle": 8,
+      "service_type": 2,
+      "date": "2022-10-02",
+      "hours": 202,
+      "order_number": "#2022-98КЕ93СИЛ",
+      "order_date": "2022-09-30",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 35,
+    "fields": {
+      "vehicle": 8,
+      "service_type": 3,
+      "date": "2022-11-09",
+      "hours": 402,
+      "order_number": "#2022-82КЕ69СИЛ",
+      "order_date": "2022-11-07",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.service",
+    "pk": 36,
+    "fields": {
+      "vehicle": 6,
+      "service_type": 5,
+      "date": "2022-11-21",
+      "hours": 2010,
+      "order_number": "#2022-78КЕ54СИЛ",
+      "order_date": "2022-11-19",
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 1,
+    "fields": {
+      "vehicle": 1,
+      "failure_date": "2022-04-01",
+      "hours": 123,
+      "failure_part": 3,
+      "failure_type": "повышенный шум",
+      "repair_method": 1,
+      "spare": "прокладки, прочие материалы",
+      "repaired_date": "2022-04-08",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 2,
+    "fields": {
+      "vehicle": 1,
+      "failure_date": "2022-04-02",
+      "hours": 129,
+      "failure_part": 5,
+      "failure_type": "проскальзывание",
+      "repair_method": 1,
+      "spare": "шестерня ведущая",
+      "repaired_date": "2022-04-07",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 3,
+    "fields": {
+      "vehicle": 1,
+      "failure_date": "2022-03-30",
+      "hours": 112,
+      "failure_part": 5,
+      "failure_type": "блокировка колес",
+      "repair_method": 2,
+      "spare": "",
+      "repaired_date": "2022-03-31",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 4,
+    "fields": {
+      "vehicle": 2,
+      "failure_date": "2022-02-06",
+      "hours": 123,
+      "failure_part": 1,
+      "failure_type": "блокировка колес",
+      "repair_method": 1,
+      "spare": "колесо",
+      "repaired_date": "2022-02-11",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 5,
+    "fields": {
+      "vehicle": 3,
+      "failure_date": "2022-05-05",
+      "hours": 38,
+      "failure_part": 6,
+      "failure_type": "разрушение подшипника",
+      "repair_method": 1,
+      "spare": "подшипник",
+      "repaired_date": "2022-05-07",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 6,
+    "fields": {
+      "vehicle": 4,
+      "failure_date": "2022-06-17",
+      "hours": 112,
+      "failure_part": 6,
+      "failure_type": "разрушение подшипника",
+      "repair_method": 1,
+      "spare": "подшипник",
+      "repaired_date": "2022-06-25",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 7,
+    "fields": {
+      "vehicle": 5,
+      "failure_date": "2021-10-26",
+      "hours": 142,
+      "failure_part": 6,
+      "failure_type": "разрушение подшипника",
+      "repair_method": 1,
+      "spare": "подшипник",
+      "repaired_date": "2021-11-02",
+      "service_firm": 2
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 8,
+    "fields": {
+      "vehicle": 6,
+      "failure_date": "2021-12-31",
+      "hours": 61,
+      "failure_part": 4,
+      "failure_type": "разрушение верхнего ролика",
+      "repair_method": 1,
+      "spare": "ролик",
+      "repaired_date": "2022-01-05",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 9,
+    "fields": {
+      "vehicle": 7,
+      "failure_date": "2022-07-28",
+      "hours": 56,
+      "failure_part": 3,
+      "failure_type": "течь масла",
+      "repair_method": 1,
+      "spare": "прокладки",
+      "repaired_date": "2022-08-01",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 10,
+    "fields": {
+      "vehicle": 8,
+      "failure_date": "2022-09-07",
+      "hours": 47,
+      "failure_part": 2,
+      "failure_type": "течь масла",
+      "repair_method": 1,
+      "spare": "прокладки",
+      "repaired_date": "2022-09-09",
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 11,
+    "fields": {
+      "vehicle": 9,
+      "failure_date": "2022-02-01",
+      "hours": 22,
+      "failure_part": 3,
+      "failure_type": "не заводится",
+      "repair_method": 2,
+      "spare": "",
+      "repaired_date": "2022-02-10",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.claim",
+    "pk": 12,
+    "fields": {
+      "vehicle": 10,
+      "failure_date": "2021-10-11",
+      "hours": 59,
+      "failure_part": 3,
+      "failure_type": "течь масла",
+      "repair_method": 1,
+      "spare": "прокладки",
+      "repaired_date": "2021-10-21",
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 1,
+    "fields": {
+      "user": 1000,
+      "role": "MANAGER",
+      "client": null,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 2,
+    "fields": {
+      "user": 1001,
+      "role": "CLIENT",
+      "client": 7,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 3,
+    "fields": {
+      "user": 1005,
+      "role": "CLIENT",
+      "client": 3,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 4,
+    "fields": {
+      "user": 1004,
+      "role": "CLIENT",
+      "client": 4,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 5,
+    "fields": {
+      "user": 1003,
+      "role": "CLIENT",
+      "client": 5,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 6,
+    "fields": {
+      "user": 1002,
+      "role": "CLIENT",
+      "client": 6,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 7,
+    "fields": {
+      "user": 1006,
+      "role": "CLIENT",
+      "client": 2,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 8,
+    "fields": {
+      "user": 1007,
+      "role": "CLIENT",
+      "client": 1,
+      "service_firm": null
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 9,
+    "fields": {
+      "user": 1008,
+      "role": "SERVICE",
+      "client": null,
+      "service_firm": 3
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 10,
+    "fields": {
+      "user": 1010,
+      "role": "SERVICE",
+      "client": null,
+      "service_firm": 1
+    }
+  },
+  {
+    "model": "silant.silantpermissions",
+    "pk": 11,
+    "fields": {
+      "user": 1009,
+      "role": "SERVICE",
+      "client": null,
+      "service_firm": 2
+    }
+  }
+]
