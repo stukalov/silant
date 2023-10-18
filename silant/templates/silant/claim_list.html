@@ -18,37 +18,61 @@
             <thead class="claim-header">
             <tr>
                 <td class="claim-header-tech_type">
-                    Модель техники
+                    <a href="?{% claim_replace vehicle__tech_type=1 %}">
+                        Модель техники
+                    </a>
+                    {% if ordering == "vehicle__tech_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-vehicle_number">
-                    Зав. № машины
+                    <a href="?{% claim_replace vehicle__vehicle_number=1 %}">
+                        Зав. № машины
+                    </a>
+                    {% if ordering == "vehicle__vehicle_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-failure_date">
-                    Дата отказа
+                    <a href="?{% claim_replace failure_date=1 %}">
+                        Дата отказа
+                    </a>
+                    {% if ordering == "failure_date" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-hours">
-                    Наработка, м/час
+                    <a href="?{% claim_replace hours=1 %}">
+                        Наработка, м/час
+                    </a>
+                    {% if ordering == "hours" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-failure_part">
-                    Узел отказа
+                    <a href="?{% claim_replace failure_part=1 %}">
+                        Узел отказа
+                    </a>
+                    {% if ordering == "failure_part" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-failure_type">
                     Описание отказа
                 </td>
                 <td class="claim-header-repair_method">
-                    Способ восстановления
+                    <a href="?{% claim_replace repair_method=1 %}">
+                        Способ восстановления
+                    </a>
+                    {% if ordering == "repair_method" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-spare">
                     Использованные запчасти
                 </td>
                 <td class="claim-header-repaired_date">
-                    Дата восстановления
+                    <a href="?{% claim_replace repaired_date=1 %}">
+                        Дата восстановления
+                    </a>
+                    {% if ordering == "repaired_date" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
                 <td class="claim-header-downtime">
                     Время простоя техники
                 </td>
                 <td class="claim-header-service_firm">
-                    Сервисная компания
+                    <a href="?{% claim_replace service_firm=1 %}">
+                        Сервисная компания
+                    </a>
+                    {% if ordering == "service_firm" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                 </td>
             </tr>
             </thead>
@@ -95,7 +119,7 @@
                     {% endif %}
                 </td>
                 <td class="claim-body-failure_type">
-                    {{ item.failure_type }}
+                    {{ item.failure_type|linebreaksbr }}
                 </td>
                 <td class="claim-body-repair_method">
                     {% create_link item=item.repair_method link_type='repair_method' as link %}
@@ -108,7 +132,7 @@
                     {% endif %}
                 </td>
                 <td class="claim-body-spare">
-                    {{ item.spare }}
+                    {{ item.spare|linebreaksbr }}
                 </td>
                 <td class="claim-body-repaired_date">
                     {{ item.repaired_date }}

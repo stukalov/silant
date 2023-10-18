@@ -351,6 +351,14 @@ class VehicleListView(ListView):
     ordering = 'shipping_date'
     paginate_by = default_paginate_by
     user_role = ''
+    __field_list = None
+
+    @classmethod
+    def field_list(cls):
+        if not cls.__field_list:
+            fields = cls.model._meta.get_fields()
+            cls.__field_list = [f.name for f in fields if f.__class__.__name__ not in ('ManyToOneRel', 'BigAutoField')]
+        return cls.__field_list
 
     def dispatch(self, request, *args, **kwargs):
         self.user_role = get_role(request.user)
@@ -358,6 +366,15 @@ class VehicleListView(ListView):
 
     def get_queryset(self):
         queryset = super(VehicleListView, self).get_queryset()
+
+        ordering = self.ordering
+        filter = self.request.GET.copy()
+        for v in self.field_list():
+            if f'order_{v}' in filter:
+                ordering = f'{v}'
+        self.ordering = ordering
+        queryset = queryset.order_by(ordering)
+
         match self.user_role:
             case 'CLIENT':
                 queryset = queryset.filter(client=self.request.user.silantpermissions.client)
@@ -418,6 +435,16 @@ class ServiceListView(AccessMixin, ListView):
     ordering = 'date'
     paginate_by = default_paginate_by
     user_role = ''
+    __field_list = None
+    @classmethod
+    def field_list(cls):
+        if not cls.__field_list:
+            fields = cls.model._meta.get_fields()
+            cls.__field_list = [f.name for f in fields if f.__class__.__name__ not in ('ManyToOneRel', 'BigAutoField')]
+            cls.__field_list.remove('vehicle')
+            cls.__field_list.append('vehicle__tech_type')
+            cls.__field_list.append('vehicle__vehicle_number')
+        return cls.__field_list
 
     def dispatch(self, request, *args, **kwargs):
         self.user_role = get_role(request.user)
@@ -427,6 +454,15 @@ class ServiceListView(AccessMixin, ListView):
 
     def get_queryset(self):
         queryset = super(ServiceListView, self).get_queryset()
+
+        ordering = self.ordering
+        filter = self.request.GET.copy()
+        for v in self.field_list():
+            if f'order_{v}' in filter:
+                ordering = f'{v}'
+        self.ordering = ordering
+        queryset = queryset.order_by(ordering)
+
         match self.user_role:
             case 'CLIENT':
                 queryset = queryset.filter(vehicle__client=self.request.user.silantpermissions.client)
@@ -492,6 +528,16 @@ class ClaimListView(AccessMixin, ListView):
     ordering = 'failure_date'
     paginate_by = default_paginate_by
     user_role = ''
+    __field_list = None
+    @classmethod
+    def field_list(cls):
+        if not cls.__field_list:
+            fields = cls.model._meta.get_fields()
+            cls.__field_list = [f.name for f in fields if f.__class__.__name__ not in ('ManyToOneRel', 'BigAutoField')]
+            cls.__field_list.remove('vehicle')
+            cls.__field_list.append('vehicle__tech_type')
+            cls.__field_list.append('vehicle__vehicle_number')
+        return cls.__field_list
 
     def dispatch(self, request, *args, **kwargs):
         self.user_role = get_role(request.user)
@@ -501,6 +547,15 @@ class ClaimListView(AccessMixin, ListView):
 
     def get_queryset(self):
         queryset = super(ClaimListView, self).get_queryset()
+
+        ordering = self.ordering
+        filter = self.request.GET.copy()
+        for v in self.field_list():
+            if f'order_{v}' in filter:
+                ordering = f'{v}'
+        self.ordering = ordering
+        queryset = queryset.order_by(ordering)
+
         match self.user_role:
             case 'CLIENT':
                 queryset = queryset.filter(vehicle__client=self.request.user.silantpermissions.client)

@@ -18,7 +18,21 @@ def url_replace(context, **kwargs):
 
 @register.simple_tag(takes_context=True)
 def vehicle_replace(context, **kwargs):
-    remove = silant.views.VehicleListView.field_list()
+    return _order_replace(silant.views.VehicleListView, context, **kwargs)
+
+
+@register.simple_tag(takes_context=True)
+def service_replace(context, **kwargs):
+    return _order_replace(silant.views.ServiceListView, context, **kwargs)
+
+
+@register.simple_tag(takes_context=True)
+def claim_replace(context, **kwargs):
+    return _order_replace(silant.views.ClaimListView, context, **kwargs)
+
+
+def _order_replace(view, context, **kwargs):
+    remove = view.field_list()
     d = {k: v for k, v in context['request'].GET.items() if k[6:] not in remove}
     for k, v in kwargs.items():
         d[f'order_{k}'] = ''

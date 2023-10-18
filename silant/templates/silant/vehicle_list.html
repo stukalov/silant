@@ -28,34 +28,64 @@
                 <thead class="vehicle-header">
                 <tr>
                     <td class="vehicle-header-tech_type">
-                        Модель техники
+                        <a href="?{% vehicle_replace tech_type=1 %}">
+                            Модель техники
+                        </a>
+                        {% if ordering == "tech_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-vehicle_number">
-                        Зав. № машины
+                        <a href="?{% vehicle_replace vehicle_number=1 %}">
+                            Зав. № машины
+                        </a>
+                        {% if ordering == "vehicle_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-engine_type">
-                        Модель двигателя
+                        <a href="?{% vehicle_replace engine_type=1 %}">
+                            Модель двигателя
+                        </a>
+                        {% if ordering == "engine_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-engine_number">
-                        Зав. № двигателя
+                        <a href="?{% vehicle_replace engine_number=1 %}">
+                            Зав. № двигателя
+                        </a>
+                        {% if ordering == "engine_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-gear_type">
-                        Модель трансмиссии
+                        <a href="?{% vehicle_replace gear_type=1 %}">
+                            Модель трансмиссии
+                        </a>
+                        {% if ordering == "gear_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-gear_number">
-                        Зав. № трансмиссии
+                        <a href="?{% vehicle_replace gear_number=1 %}">
+                            Зав. № трансмиссии
+                        </a>
+                        {% if ordering == "gear_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-drive_axel_type">
-                        Модель ведущего моста
+                        <a href="?{% vehicle_replace drive_axel_type=1 %}">
+                            Модель ведущего моста
+                        </a>
+                        {% if ordering == "drive_axel_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-drive_axel_number">
-                        Зав. № ведущего моста
+                        <a href="?{% vehicle_replace drive_axel_number=1 %}">
+                            Зав. № ведущего моста
+                        </a>
+                        {% if ordering == "drive_axel_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-steer_axel_type">
-                        Модель управляемого моста
+                        <a href="?{% vehicle_replace steer_axel_type=1 %}">
+                            Модель управляемого моста
+                        </a>
+                        {% if ordering == "steer_axel_type" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     <td class="vehicle-header-steer_axel_number">
-                        Зав. № управляемого моста
+                        <a href="?{% vehicle_replace steer_axel_number=1 %}">
+                            Зав. № управляемого моста
+                        </a>
+                        {% if ordering == "steer_axel_number" %}<i class="fa-solid fa-caret-down"></i>{% endif %}
                     </td>
                     {% if user_role == 'MANAGER' %}
                     <td class="vehicle-header-act">
